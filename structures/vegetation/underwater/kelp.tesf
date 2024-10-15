@@ -7,4 +7,4 @@ for (num i = 0; i <= maxHeight; i = i + 1) {
         block(0, i, 0, "minecraft:kelp_plant");
     }
 }
-block(0, maxHeight, 0, "minecraft:kelp[age=25]");
+block(0, maxHeight, 0, "minecraft:kelp[age=10]");

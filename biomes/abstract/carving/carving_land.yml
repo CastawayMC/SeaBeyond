@@ -15,20 +15,20 @@ carving:
       carvingMaxTaper: 20
       carvingCap: 1 # Caps the amount of base carving
 
-      cheeseStrength: 0.8
-      cheeseHorizontalFrequency: 1.5
-      cheeseVerticalFrequency: 3
+      cheeseStrength: 0.0
+      cheeseHorizontalFrequency: 0
+      cheeseVerticalFrequency: 0
       cheeseMaxHeight: 90
       cheeseMaxTaper: 40
 
-      spaghettiStrengthLarge: 0.59
-      spaghettiStrengthSmall: 0.57
+      spaghettiStrengthLarge: 0.0
+      spaghettiStrengthSmall: 0.0
 
-      pillarStrength: 0.5
-      pillarRadius: 0.02
+      pillarStrength: 0.0
+      pillarRadius: 0.0
     
-      megaCaveStrength: 0.3
-      megaCaveSize: 0.3
+      megaCaveStrength: 0.0
+      megaCaveSize: 0.0
 
     expression: |
       -carvingThreshold
@@ -72,13 +72,13 @@ carving:
       cavePillars:
         dimensions: 2
         type: CELLULAR
-        frequency: 0.05
+        frequency: 0.0
       
       megaCaves:
         dimensions: 3
         type: OPEN_SIMPLEX_2
         salt: 777
-        frequency: 0.003
+        frequency: 0.0
       
       # Basic 2D simplex noise
       simplex2:
@@ -91,7 +91,7 @@ carving:
           octaves: 4
           sampler:
             type: OPEN_SIMPLEX_2
-            frequency: 0.0075
+            frequency: 0.0
       
       # Basic 3D simplex noise
       simplex3:
