@@ -1,9 +1,6 @@
 id: BASE
 type: BIOME
 abstract: true
-extends:
-  #- DEPOSITS_DEFAULT
-  #- ORES_DEFAULT
 
 slant-depth: 15
 
@@ -12,12 +9,6 @@ ocean:
   level: 62
 
 features:
-  global-preprocessors:
-    #- LAVA_FLOOR
-    - UNDERGROUND_LAVA_COLUMNS
-    - CONTAIN_FLOATING_WATER
-    - CAVE_GLOW_LICHEN
-    #- TEXTURED_STONE_SLANT
   underwater-flora:
     - KELP
     - SEAGRASS
