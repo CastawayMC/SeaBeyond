@@ -1,11 +1,11 @@
-id: TROPICAL_OCEAN
+id: TEMPERATE_OCEAN
 type: BIOME
 extends: [ PALETTE_OCEAN, EQ_OCEAN, CARVING_OCEAN, BASE ]
 vanilla: minecraft:warm_ocean
 color: $biomes/colors.yml:TROPICAL_OCEAN
 
 colors:
-  grass: 0x62b045
-  foliage: 0x539e37
-  water: 0x02b0e5
-  water-fog: 0x0686ca
+  grass: 0x75ba5b
+  foliage: 0x5fa843
+  water: 0x1787d4
+  water-fog: 0x1165b0
